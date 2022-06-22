@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p>Введи что-нибудь и нажми кнопку Пойти домой, чтобы попасть домой</p>
+    <form action="http://localhost:8080/home" method="get">
+        <input type="text" id="q" name="q">
+        <input type="submit" id="but_home" value="Пойти домой">
+    </form>
+    <div style="padding: 50px 0px">
+        <p>Введи номер карты и ее cvv</p>
+        <form action="http://localhost:8080/" method="post">
+            <input type="text" id="card_num" name="card_num">
+            <input type="text" id="cvv" name="cvv">
+            <input type="submit" id="ad" value="login">
+        </form>
+    </div>
+</body>
+</html>
